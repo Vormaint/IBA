@@ -9,7 +9,7 @@ namespace DataInteraction
     public class ProccesingCsv : FileInteraction
     {
         //путь к файлу
-        public string PathCsvFile = @"C:\Users\User\source\repos\IBA\IBA_Tasks\IBA_Tasks\Task-1\DataInteraction\bin\Debug\Humen.csv";
+        public string PathCsvFile = @"C:\Users\User\source\repos\IBA_Tasks\Task-1\DataInteraction\bin\Debug\Humen.csv";
 
         public override void ExportToDataBase()
         {

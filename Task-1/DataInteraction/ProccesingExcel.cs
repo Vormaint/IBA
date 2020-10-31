@@ -13,7 +13,7 @@ namespace DataInteraction
         public override void ImportFromDataBase(DateTime date, string Name, string LastName,
             string SurName, string City, string Country)
         {
-            //string path = @"C:\Users\User\source\repos\IBA\IBA_Tasks\IBA_Tasks\Task-1\DataInteraction\ExcelFile.xlsx";
+            //string path = @"C:\Users\User\source\repos\IBA_Tasks\Task-1\DataInteraction\ExcelFile.xlsx";
 
             //Excel.Application excelapp = new Excel.Application();
             //Excel.Workbook workbook = excelapp.Workbooks.Add();

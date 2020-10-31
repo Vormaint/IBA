@@ -12,7 +12,7 @@ namespace DataInteraction
             string SurName, string City, string Country)
         {
             XmlDocument xDoc = new XmlDocument();
-            xDoc.Load(@"C:\Users\User\source\repos\IBA\IBA_Tasks\IBA_Tasks\Task-1\DataInteraction\XML.xml");
+            xDoc.Load(@"C:\Users\User\source\repos\IBA_Tasks\Task-1\DataInteraction\XML.xml");
 
             //Открытие соединения с БД
             using (ConnectionDataBase db = new ConnectionDataBase())
@@ -64,7 +64,7 @@ namespace DataInteraction
                 }
             }
 
-            xDoc.Save(@"C:\Users\User\source\repos\IBA\IBA_Tasks\IBA_Tasks\Task-1\DataInteraction\XML.xml");
+            xDoc.Save(@"C:\Users\User\source\repos\IBA_Tasks\Task-1\DataInteraction\XML.xml");
         }
 
         public override void ExportToDataBase() { }

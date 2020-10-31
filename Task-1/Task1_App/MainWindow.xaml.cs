@@ -46,7 +46,7 @@ namespace Task1_App
             {
                 proccesingXML.ImportFromDataBase(DataPickerDate.SelectedDate.Value, TextBoxName.Text, 
                     TextBoxLastName.Text,TextBoxSurName.Text, TextBoxCity.Text, TextBoxCountry.Text);
-                TextBlockInfo.Text = "Данные успешно испортированны!";
+                TextBlockInfo.Text = "Данные успешно импортированны!";
             }
             catch
             {
