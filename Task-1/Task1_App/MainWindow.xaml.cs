@@ -10,7 +10,7 @@ namespace Task1_App
     {
         ProccesingCsv proccesingCsv = new ProccesingCsv();
         ProccesingXML proccesingXML = new ProccesingXML();
-        //ProccesingExcel proccesingExcel = new ProccesingExcel();
+        ProccesingExcel proccesingExcel = new ProccesingExcel();
 
         public MainWindow()
         {
@@ -63,7 +63,9 @@ namespace Task1_App
         {
             try
             {
-
+                proccesingExcel.ImportFromDataBase(DataPickerDate.SelectedDate.Value, TextBoxName.Text,
+                    TextBoxLastName.Text, TextBoxSurName.Text, TextBoxCity.Text, TextBoxCountry.Text);
+                TextBlockInfo.Text = "Данные успешно импортированны!";
             }
             catch
             {
